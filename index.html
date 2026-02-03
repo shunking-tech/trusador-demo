@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRUSADOR | 想像を超える極小・超軽量ミニマル財布</title>
+    <meta name="description" content="トルコ製プレミアムレザーを使用した、カードサイズの極小ミニウォレット。TRUSADOR（トラサドール）が提案する、新しい時代のミニマリズム。">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav class="container">
+            <div class="logo">TRUSADOR</div>
+            <div class="nav-links" id="navLinks">
+                <a href="#hero">Home</a>
+                <a href="#usps">Features</a>
+                <a href="#about">Craftsmanship</a>
+                <a href="#contact" class="btn btn-outline">Consultation</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="badge">Compact & Luxury</span>
+                    <h1>持っていることを<br>忘れるほど、自由</h1>
+                    <p>トルコ産プレミアムレザーを贅沢に使用した、カードサイズの極小ミニウォレット「TRUSADOR」。45gという軽さと、10の多機能ポケットをこの一つのサイズに。</p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary">構築のご相談はこちら</a>
+                        <a href="#usps" class="btn btn-text">詳細を見る ↓</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- USPs Section -->
+        <section id="usps" class="usps">
+            <div class="container">
+                <div class="section-title">
+                    <h2>TRUSADORが選ばれる理由</h2>
+                    <p>機能性と美しさ、どちらも犠牲にしない。</p>
+                </div>
+                <div class="usp-grid">
+                    <div class="usp-card reveal">
+                        <div class="usp-icon">
+                            <img src="images/compact.png" alt="Compact Size">
+                        </div>
+                        <h3>驚異のコンパクト設計</h3>
+                        <p>9.1cm x 7.3cm。ほぼクレジットカードと同じサイズでありながら、お札・コイン・カードをすべて美しく収納。</p>
+                    </div>
+                    <div class="usp-card reveal">
+                        <div class="usp-icon">
+                            <img src="images/leather.png" alt="Premium Leather">
+                        </div>
+                        <h3>最高級トルコ産レザー</h3>
+                        <p>名門タンナーが仕立てたフルグレインレザー。使い込むほどに深い味わいを生むエイジングを楽しめます。</p>
+                    </div>
+                    <div class="usp-card reveal">
+                        <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                        <h3>RFIDスキミング防止</h3>
+                        <p>大切なカード情報を守るセキュリティ。見た目の美しさだけでなく、現代の安全性も備えています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container about-flex">
+                <div class="about-image">
+                    <img src="images/leather.png" alt="Craftsmanship" class="reveal">
+                </div>
+                <div class="about-content">
+                    <span class="badge">Craftsmanship</span>
+                    <h2>熟練の職人による<br>ハンドメイド</h2>
+                    <p>TRUSADORの製品はすべて、伝統的な革工芸技術を持つ職人の手によって一つずつ丁寧に仕上げられています。細部のステッチ一本一本にまでこだわり、長く愛用できる耐久性を実現しました。</p>
+                    <ul class="check-list">
+                        <li>一貫した品質管理</li>
+                        <li>選び抜かれた素材のみを使用</li>
+                        <li>使う人に寄り添った設計</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="contact" class="cta">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Shopifyでのブランド構築・<br>成長を支援します</h2>
+                    <p>TRUSADORのようなプレミアムなブランド体験を、Shopifyで実現しませんか？構築から運用、マーケティングまで一貫してサポートいたします。</p>
+                    <a href="#" class="btn btn-primary large">まずは無料で相談する</a>
+                    <p class="small">※本サイトは構築実績のデモサイトです。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 TRUSADOR Demo Build by 中村駿輝. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
